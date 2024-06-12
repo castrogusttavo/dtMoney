@@ -7,9 +7,9 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
+    "moduleResolution": "node",  // Changed from "Bundler" to "node"
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,   // This option now works with "node" module resolution
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
